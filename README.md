@@ -23,3 +23,8 @@ python ./test1.py
 ```
 
 `tmp/google.png` に googleのスクリーンショットが取られる。
+
+## 参考
+
+- [The Selenium Browser Automation Project | Selenium](https://www.selenium.dev/documentation/)
+- [Microsoft Edge WebDriver - Microsoft Edge Developer](https://developer.microsoft.com/ja-jp/microsoft-edge/tools/webdriver/)

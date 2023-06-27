@@ -13,7 +13,7 @@ EDGEDRIVER = "../msedgedriver.exe"
 
 # オプションを準備
 options = Options()
-options.add_argument("--headless")
+# options.add_argument("--headless")
 # headありだと "Every renderer should have at least one task provided by a primary task provider." という警告が出る。
 # headありだとデバッグに便利
 options.add_argument("--disable-extensions")  # すべての拡張機能を無効にする。ユーザースクリプトも無効にする
@@ -26,3 +26,5 @@ driver = webdriver.Edge(service=service, options=options)
 # URLを開きスクショとる
 driver.get("https://www.google.com/")
 driver.save_screenshot("tmp/google.png")
+
+driver.quit()
