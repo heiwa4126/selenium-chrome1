@@ -1,11 +1,11 @@
-# selenium-edge1
+# selenium-chrome1
 
-Selenium4 を Windows上のEdge とPython(v3.11)で試す。
+Selenium4 を Windows上のChrome とPython(v3.11)で試す。
 
 ## 準備
 
 ドライバは親ディレクトリに置く。
-[Microsoft Edge WebDriver - Microsoft Edge Developer](https://developer.microsoft.com/ja-jp/microsoft-edge/tools/webdriver/)
+[ChromeDriver - WebDriver for Chrome - Downloads](https://chromedriver.chromium.org/downloads)
 
 venvも親ディレクトリに置く。
 
@@ -22,9 +22,10 @@ pip install -r requirements.txt
 python ./test1.py
 ```
 
-`tmp/google.png` に googleのスクリーンショットが取られる。
+`tmp/chrome.png` に [chrome](https://www.google.com/chrome/browser/welcomeback.html)のスクリーンショットが取られる。
 
 ## 参考
 
 - [The Selenium Browser Automation Project | Selenium](https://www.selenium.dev/documentation/)
-- [Microsoft Edge WebDriver - Microsoft Edge Developer](https://developer.microsoft.com/ja-jp/microsoft-edge/tools/webdriver/)
+- [ChromeDriver - WebDriver for Chrome - Downloads](https://chromedriver.chromium.org/downloads)
+- [Chrome specific functionality | Selenium](https://www.selenium.dev/documentation/webdriver/browsers/chrome/)
